@@ -1,0 +1,299 @@
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\Aldi Reza Sastrawan>cd documents
+
+C:\Users\Aldi Reza Sastrawan\Documents>cd netbeansprojects
+
+C:\Users\Aldi Reza Sastrawan\Documents\NetBeansProjects>cd praktikum1
+
+C:\Users\Aldi Reza Sastrawan\Documents\NetBeansProjects\praktikum1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 6070-6110
+
+ Directory of C:\Users\Aldi Reza Sastrawan\Documents\NetBeansProjects\praktikum1
+
+
+03/18/2016  06:18 PM    <DIR>          .
+03/18/2016  06:18 PM    <DIR>          ..
+03/18/2016  05:59 PM             1,264 nb-configuration.xml
+03/18/2016  06:25 PM               826 pom.xml
+03/18/2016  05:59 PM    <DIR>          src
+03/18/2016  06:19 PM    <DIR>          target
+               2 File(s)          2,090 bytes
+               4 Dir(s)  49,931,251,712 bytes free
+
+C:\Users\Aldi Reza Sastrawan\Documents\NetBeansProjects\praktikum1>mvn clean tes
+t
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building praktikum1 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven
+-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
+clean-plugin/2.5/maven-clean-plugin-2.5.pom (4 KB at 1.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven
+-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
+clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 KB at 32.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven
+-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
+resources-plugin/2.6/maven-resources-plugin-2.6.pom (8 KB at 17.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven
+-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
+resources-plugin/2.6/maven-resources-plugin-2.6.jar (29 KB at 44.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven
+-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
+surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (11 KB at 23.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/sure
+fire/2.12.4/surefire-2.12.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/suref
+ire/2.12.4/surefire-2.12.4.pom (14 KB at 30.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven
+-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
+surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 KB at 63.0 KB/sec)
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ praktikum1 ---
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-uti
+ls/3.0/plexus-utils-3.0.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+api/2.0.6/maven-plugin-api-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-a
+pi/2.0.6/maven-plugin-api-2.0.6.jar (13 KB at 13.9 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-util
+s/3.0/plexus-utils-3.0.jar (221 KB at 195.7 KB/sec)
+[INFO] Deleting C:\Users\Aldi Reza Sastrawan\Documents\NetBeansProjects\praktiku
+m1\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ praktikum1
+ ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-
+filtering/1.1/maven-filtering-1.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-f
+iltering/1.1/maven-filtering-1.1.pom (6 KB at 12.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project
+/2.0.6/maven-project-2.0.6.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile
+/2.0.6/maven-profile-2.0.6.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+registry/2.0.6/maven-plugin-registry-2.0.6.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifac
+t-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.
+0.6/maven-core-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/
+2.0.6/maven-profile-2.0.6.jar (35 KB at 68.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/
+2.0.6/maven-project-2.0.6.jar (114 KB at 119.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-reposit
+ory-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-p
+arameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar (21 KB at
+20.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-d
+iagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-r
+egistry/2.0.6/maven-plugin-registry-2.0.6.jar (29 KB at 25.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact
+-manager/2.0.6/maven-artifact-manager-2.0.6.jar (56 KB at 40.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/cl
+assworlds-1.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-reposito
+ry-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 KB at 16.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifac
+t/2.0.6/maven-artifact-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-di
+agnostics/2.0.6/maven-error-diagnostics-2.0.6.jar (14 KB at 9.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-setting
+s/2.0.6/maven-settings-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0
+.6/maven-core-2.0.6.jar (149 KB at 95.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2
+.0.6/maven-model-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-d
+escriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar (37 KB at 20.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor
+/2.0.6/maven-monitor-2.0.6.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings
+/2.0.6/maven-settings-2.0.6.jar (48 KB at 24.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-con
+tainer-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-
+1.jar
+Downloaded: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/cla
+ssworlds-1.1.jar (37 KB at 18.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-
+filtering/1.1/maven-filtering-1.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact
+/2.0.6/maven-artifact-2.0.6.jar (86 KB at 41.1 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.
+0.6/maven-model-2.0.6.jar (85 KB at 38.6 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/
+2.0.6/maven-monitor-2.0.6.jar (11 KB at 4.5 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cont
+ainer-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1
+.jar (190 KB at 70.0 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-f
+iltering/1.1/maven-filtering-1.1.jar (43 KB at 15.4 KB/sec)
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Aldi Reza Sastrawan\Document
+s\NetBeansProjects\praktikum1\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ praktikum1 ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+api/2.0.9/maven-plugin-api-2.0.9.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.
+0.9/maven-core-2.0.9.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifac
+t/2.0.9/maven-artifact-2.0.9.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-setting
+s/2.0.9/maven-settings-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-p
+arameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar (21 KB at
+40.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile
+/2.0.9/maven-profile-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-a
+pi/2.0.9/maven-plugin-api-2.0.9.jar (13 KB at 21.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2
+.0.9/maven-model-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings
+/2.0.9/maven-settings-2.0.9.jar (48 KB at 83.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-reposit
+ory-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact
+/2.0.9/maven-artifact-2.0.9.jar (87 KB at 103.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-d
+iagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/
+2.0.9/maven-profile-2.0.9.jar (35 KB at 34.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project
+/2.0.9/maven-project-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-reposito
+ry-metadata/2.0.9/maven-repository-metadata-2.0.9.jar (24 KB at 22.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+registry/2.0.9/maven-plugin-registry-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0
+.9/maven-core-2.0.9.jar (156 KB at 132.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-
+descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.
+0.9/maven-model-2.0.9.jar (86 KB at 73.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifac
+t-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-di
+agnostics/2.0.9/maven-error-diagnostics-2.0.9.jar (14 KB at 10.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor
+/2.0.9/maven-monitor-2.0.9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-r
+egistry/2.0.9/maven-plugin-registry-2.0.9.jar (29 KB at 18.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolcha
+in/1.0/maven-toolchain-1.0.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-d
+escriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar (37 KB at 22.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-con
+tainer-default/1.5.5/plexus-container-default-1.5.5.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/
+2.0.9/maven-project-2.0.9.jar (119 KB at 72.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cla
+ssworlds/2.2.2/plexus-classworlds-2.2.2.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact
+-manager/2.0.9/maven-artifact-manager-2.0.9.jar (57 KB at 33.6 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/
+2.0.9/maven-monitor-2.0.9.jar (11 KB at 5.6 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchai
+n/1.0/maven-toolchain-1.0.jar (33 KB at 15.9 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-clas
+sworlds/2.2.2/plexus-classworlds-2.2.2.jar (46 KB at 20.8 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cont
+ainer-default/1.5.5/plexus-container-default-1.5.5.jar (212 KB at 87.4 KB/sec)
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pr
+aktikum1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Aldi Reza Sastrawan\Document
+s\NetBeansProjects\praktikum1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ praktik
+um1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ praktikum1 ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/sure
+fire-booter/2.12.4/surefire-booter-2.12.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/suref
+ire-booter/2.12.4/surefire-booter-2.12.4.pom (3 KB at 6.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/sure
+fire-api/2.12.4/surefire-api-2.12.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/suref
+ire-api/2.12.4/surefire-api-2.12.4.pom (3 KB at 5.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/mave
+n-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven
+-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom (6 KB at 12.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/
+maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/m
+aven-plugin-annotations/3.1/maven-plugin-annotations-3.1.pom (2 KB at 3.6 KB/sec
+)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/
+maven-plugin-tools/3.1/maven-plugin-tools-3.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/m
+aven-plugin-tools/3.1/maven-plugin-tools-3.1.pom (16 KB at 35.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lan
+g3/3.1/commons-lang3-3.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang
+3/3.1/commons-lang3-3.1.pom (17 KB at 36.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-par
+ent/22/commons-parent-22.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-pare
+nt/22/commons-parent-22.pom (41 KB at 84.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/sure
+fire-booter/2.12.4/surefire-booter-2.12.4.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/mave
+n-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolcha
+in/2.0.9/maven-toolchain-2.0.9.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/sure
+fire-api/2.12.4/surefire-api-2.12.4.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lan
+g3/3.1/commons-lang3-3.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/suref
+ire-booter/2.12.4/surefire-booter-2.12.4.jar (34 KB at 68.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/
+maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchai
+n/2.0.9/maven-toolchain-2.0.9.jar (38 KB at 66.7 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/suref
+ire-api/2.12.4/surefire-api-2.12.4.jar (115 KB at 158.6 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/m
+aven-plugin-annotations/3.1/maven-plugin-annotations-3.1.jar (14 KB at 14.4 KB/s
+ec)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven
+-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar (257 KB at 242.9 KB/sec
+)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang
+3/3.1/commons-lang3-3.1.jar (309 KB at 273.4 KB/sec)
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.179 s
+[INFO] Finished at: 2016-03-18T20:19:01+07:00
+[INFO] Final Memory: 11M/112M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\Aldi Reza Sastrawan\Documents\NetBeansProjects\praktikum1>
